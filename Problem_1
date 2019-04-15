@@ -2,5 +2,13 @@
 #include<conio.h>
 void main()
 {
- 
-}
+ int player[10],time[10],start[10]={20,0,25,10,30,20,35,30,40,40};
+ for(i=0;i<10;i++)
+ {
+  if(i!="3"||"6"||"8")
+  player[i]=start[i]+1000; 
+ }
+ for(i=0;i<10;i++)
+  printf("%d",player[i]);
+ getch();
+} 
